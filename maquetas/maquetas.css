@@ -1,0 +1,70 @@
+.contenedor {
+  width: 750px;
+  height: 750px;
+  background-color: rgb(2, 2, 2);
+}
+
+header {
+  background-color: beige;
+  width: 750px;
+  height: 250px;
+  position: relative;
+}
+nav {
+  background-color: rgb(231, 155, 101);
+  width: 750px;
+  height: 50px;
+}
+main {
+  background-color: blue;
+  width: 750px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer {
+  background-color: aquamarine;
+  width: 750px;
+  height: 50px;
+}
+
+/* Header */
+.banner {
+  width: 500px;
+  height: 250px;
+  background-color: beige;
+  position: absolute;
+}
+.logo {
+  background-color: rgb(211, 207, 214);
+  height: 125px;
+  width: 250px;
+  position: absolute;
+  left: 500px;
+}
+.login {
+  background-color: rgb(207, 231, 236);
+  height: 125px;
+  width: 250px;
+  position: absolute;
+  left: 500px;
+  top: 125px;
+}
+
+/* Main */
+.left {
+  background-color: rgb(255, 208, 0);
+  height: 400px;
+  width: 125px;
+}
+.center {
+  background-color: rgb(222, 192, 192);
+  height: 400px;
+  width: 500px;
+}
+.right {
+  background-color: rgb(230, 141, 242);
+  height: 400px;
+  width: 125px;
+}
